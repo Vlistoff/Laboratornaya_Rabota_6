@@ -4,7 +4,6 @@ const app = express();
 
 let storage = [];
 
-app.use(cors());
 app.use(bodyParser.urlencoded({extended: true}));
 
 
